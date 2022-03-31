@@ -1,0 +1,543 @@
+// 
+// A script for use in the kOS mod of Kerbal Space Program
+// which plays Strauss' The Blue Danube.
+//
+// Details of the kOS mod can be found on github at:
+// https://ksp-kos.github.io/KOS/
+//
+// A video showing this script being used (and the resulting
+// music which plays!) can be found ot YouTube on the
+// CassowaryGaming Youtube channel at:
+// https://www.youtube.com/watch?v=daD2Ob4M-Ak
+//
+// Created by Benjamin Thompson in January 2020.
+//
+set rh1 to getvoice(6).
+set rh1:tempo to 0.4.
+set rh1:attack to 0.05.
+set rh1:decay to 0.1.
+set rh1:sustain to 0.7.
+set rh1:release to 0.2.
+set rh1:wave to "sine".
+
+set rh2 to getvoice(7).
+set rh2:tempo to 0.4.
+set rh2:attack to 0.05.
+set rh2:decay to 0.1.
+set rh2:sustain to 0.7.
+set rh2:release to 0.2.
+set rh2:wave to "sine".
+
+set rh3 to getvoice(8).
+set rh3:tempo to 0.4.
+set rh3:attack to 0.05.
+set rh3:decay to 0.1.
+set rh3:sustain to 0.7.
+set rh3:release to 0.2.
+set rh3:wave to "sine".
+
+set rh4 to getvoice(9).
+set rh4:tempo to 0.4.
+set rh4:attack to 0.05.
+set rh4:decay to 0.1.
+set rh4:sustain to 0.7.
+set rh4:release to 0.2.
+set rh4:wave to "sine".
+
+set lh1 to getvoice(1).
+set lh1:tempo to 0.4.
+set lh1:attack to 0.05.
+set lh1:decay to 0.1.
+set lh1:sustain to 0.7.
+set lh1:release to 0.2.
+set lh1:wave to "sine".
+
+set lh2 to getvoice(2).
+set lh2:tempo to 0.4.
+set lh2:attack to 0.05.
+set lh2:decay to 0.1.
+set lh2:sustain to 0.7.
+set lh2:release to 0.2.
+set lh2:wave to "sine".
+
+set lh3 to getvoice(3).
+set lh3:tempo to 0.4.
+set lh3:attack to 0.05.
+set lh3:decay to 0.1.
+set lh3:sustain to 0.7.
+set lh3:release to 0.2.
+set lh3:wave to "sine".
+
+
+lh1:play(
+	list(
+		// PHRASE 1
+		note("R",1),
+				//		bar 1
+		note("R",3),
+note("D3",1),
+note("A3",1),
+note("A3",1),
+note("D3",1),
+note("A3",1),
+note("A3",1),
+note("D3",1),
+note("F#3",1),
+note("F#3",1),
+				//		bar 5
+note("D3",1),
+note("A3",1),
+note("A3",1),
+note("E3",1),
+note("A3",1),
+note("A3",1),
+note("E3",1),
+note("A3",1),
+note("A3",1),
+note("E3",1),
+note("G3",1),
+note("G3",1),
+				//		bar 9 (2nd set of bars)
+note("E3",1),
+note("G3",1),
+note("G3",1),
+note("A2",1),
+note("A3",1),
+note("A3",1),
+note("A2",1),
+note("A3",1),
+note("A3",1),
+note("A2",1),
+note("G3",1),
+note("G3",1),
+				// 		bar 13
+note("A2",1),
+note("G3",1),
+note("G3",1),
+note("D3",1),
+note("A3",1),
+note("A3",1),
+note("D3",1),
+note("A3",1),
+note("A3",1),
+note("D3",1),
+note("F#3",1),
+note("F#3",1),
+			//		bar 17 (end of 2nd set)
+note("D3",1),
+note("A3",1),
+note("A3",1),
+note("F#3",1),
+note("A3",1),
+note("A3",1),
+note("F#3",1),
+note("A3",1),
+note("A3",1),
+note("F#3",1),
+note("A3",1),
+note("A3",1),
+			//		bar 21
+note("F#3",1),
+note("A3",1),
+note("A3",1),
+note("G3",1),
+note("B3",1),
+note("B3",1),
+note("G3",1),
+note("B3",1),
+note("B3",1),
+note("G3",1),
+note("R",1),
+note("E3",1),
+			//		bar 25 (end of 3rd set)
+note("A2",1),
+note("B2",1),
+note("D3",0.5),
+note("R",0.5),
+note("E3",1),
+note("A3",1),
+note("A3",1),
+note("A2",1),
+note("A3",1),
+note("A3",1),
+note("D3",1),
+note("A3",1),
+note("A3",1),
+note("F#3",1),
+note("A3",1),
+note("A3",1),
+			//		bar (fz)
+note("G2",3),
+note("A2",3),
+note("D3",1),
+note("R",0.5),
+note("D3",0.5),
+note("D3",1),
+		//					NEW PHRASE
+note("D3",0.5),
+note("R",2),
+note("D2",0.5)
+	)
+).
+
+
+lh2:play(
+	list(
+		// PHRASE 1
+		note("R",1),
+				//		bar 1
+		note("R",3),
+note("R",1),
+note("D4",1),
+note("D4",1),
+note("R",1),
+note("D4",1),
+note("D4",1),
+note("R",1),
+note("A3",1),
+note("A3",1),
+				//		bar 5
+note("R",1),
+note("D4",1),
+note("D4",1),
+note("R",1),
+note("C#4",1),
+note("C#4",1),
+note("R",1),
+note("C#4",1),
+note("C#4",1),
+note("R",1),
+note("A3",1),
+note("A3",1),
+				//		bar 9 (2nd set of bars)
+note("R",1),
+note("A3",1),
+note("A3",1),
+note("R",1),
+note("C#4",1),
+note("C#4",1),
+note("R",1),
+note("C#4",1),
+note("C#4",1),
+note("R",1),
+note("A3",1),
+note("A3",1),
+				// 		bar 13
+note("R",1),
+note("A3",1),
+note("A3",1),
+note("R",1),
+note("D4",1),
+note("D4",1),
+note("R",1),
+note("D4",1),
+note("D4",1),
+note("R",1),
+note("A3",1),
+note("A3",1),
+			//		bar 17 (end of 2nd set)
+note("R",1),
+note("D4",1),
+note("D4",1),
+note("R",1),
+note("D4",1),
+note("D4",1),
+note("R",1),
+note("D4",1),
+note("D4",1),
+note("R",1),
+note("D4",1),
+note("R",1),
+			//		bar 21
+note("R",1),
+note("D4",1),
+note("D4",1),
+note("R",1),
+note("D4",1),
+note("D4",1),
+note("R",1),
+note("D4",1),
+note("D4",1),
+note("R",1),
+note("D4",1),
+note("R",1),
+			//		bar 25 (end of 3rd set)
+note("R",3),
+note("R",1),
+note("C#4",1),
+note("C#4",1),
+note("R",1),
+note("C#4",1),
+note("C#4",1),
+note("R",1),
+note("D4",1),
+note("D4",1),
+note("R",1),
+note("D4",1),
+note("D4",1),
+			//		bar (fz)
+note("D3",3),
+note("E3",3),
+note("F#3",1),
+note("R",0.5),
+note("F#3",0.5),
+note("F#3",1),
+		//					NEW PHRASE
+note("F#3",1)
+	)
+).
+
+
+rh1:play(
+	list(
+		// PHRASE 1
+		note("D4",1),
+				//		bar 1
+		note("D4",1),
+		note("F#4",1),
+		note("A4",1),
+		note("A4",7),
+		note("R",1),
+		note("D4",1),
+				//		bar 5
+		note("D4",1),
+		note("F#4",1),
+		note("A4",1),
+		note("A4",7),
+		note("R",1),
+		note("C#4",1),
+				//		bar 9 (2nd set of bars)
+		note("C#4",1),
+		note("E4",1),
+		note("B4",1),
+		note("B4",7),
+		note("R",1),
+		note("C#4",1),
+				// 		bar 13
+		note("C#4",1),
+		note("E4",1),
+		note("B4",1),
+		note("B4",6),
+		note("A4",1),
+		note("R",1),
+		note("D4",1),
+			//		bar 17 (end of 2nd set)
+		note("D4",1),
+		note("F#4",1),
+		note("A4",1),
+		note("D5",7),
+		note("R",1),
+		note("D4",1),
+			//		bar 21
+		note("D4",1),
+		note("F#4",1),
+		note("A4",1),
+		note("D5",7),
+		note("R",1),
+		note("E4",1),
+			//		bar 25 (end of 3rd set)
+		note("E4",1),
+		note("G4",1),
+		note("B4",1),
+		note("B4",4),
+		note("G#4",1),
+		note("A4",1),
+		note("F#5",4),
+		note("D5",1),
+		note("F#5",1),
+			//		bar (fz)
+		note("B4",3),
+		note("C#5",3),
+		note("D5",1),
+		note("R",0.5),
+		note("F#4",0.5),
+		note("F#4",1),
+		//					NEW PHRASE
+		note("F#4",1)
+	)
+).
+
+rh2:play(
+	list(
+		// PHRASE 1
+		note("R",1),
+				//		bar 1
+		note("R",3),
+		note("R",2),
+		note("F#5",1),
+		note("F#5",1),
+		note("R",1),
+		note("D5",1),
+		note("D5",1),
+		note("R",2),
+				//		bar 5
+		note("R",3),
+		note("R",2),
+		note("G5",1),
+		note("G5",1),
+		note("R",1),
+		note("C#5",1),
+		note("C#5",1),
+		note("R",2),
+				//		bar 9 (2nd set of bars)
+		note("R",3),
+		note("R",2),
+		note("G5",1),
+		note("G5",1),
+		note("R",1),
+		note("C#5",1),
+		note("C#5",1),
+		note("R",2),
+				// 		bar 13
+		note("R",3),
+		note("R",2),
+		note("D5",1),
+		note("D5",1),
+		note("R",1),
+		note("D5",1),
+		note("D5",1),
+		note("R",2),
+			//		bar 17 (end of 2nd set)
+		note("R",3),
+		note("R",2),
+		note("A5",1),
+		note("A5",1),
+		note("R",1),
+		note("F#5",1),
+		note("F#5",1),
+		note("R",2),
+			//		bar 21
+		note("R",3),
+		note("R",2),
+		note("B5",1),
+		note("B5",1),
+		note("R",1),
+		note("E5",1),
+		note("E5",1),
+		note("R",1),
+		note("E5",1),
+			//		bar 25 (end of 3rd set)
+		note("E5",1),
+		note("G5",1),
+		note("B5",1),
+		note("B5",4),
+		note("G#5",1),
+		note("A5",1),
+		note("F#6",4),
+		note("D6",1),
+		note("F#5",1),
+		note("F#5",2),
+		note("E5",1),
+			//		bar (fz)
+		note("B5",2),
+		note("A5",1),
+		note("R",1),
+		note("R",0.5),
+		note("A4",0.5),
+		note("A4",1),
+		//					NEW PHRASE
+		note("A4",1)
+	)
+).
+
+
+rh3:play(
+	list(
+		// PHRASE 1
+		note("R",1),
+				//		bar 1
+		note("R",3),
+		note("R",2),
+		note("A5",1),
+		note("A5",1),
+		note("R",1),
+		note("F#5",1),
+		note("F#5",1),
+		note("R",2),
+				//		bar 5
+		note("R",3),
+		note("R",2),
+		note("A5",1),
+		note("A5",1),
+		note("R",1),
+		note("G5",1),
+		note("G5",1),
+		note("R",2),
+				//		bar 9 (2nd set of bars)
+		note("R",3),
+		note("R",2),
+		note("B5",1),
+		note("B5",1),
+		note("R",1),
+		note("G5",1),
+		note("G5",1),
+		note("R",2),
+				// 		bar 13
+		note("R",3),
+		note("R",2),
+		note("F#5",1),
+		note("F#5",1),
+		note("R",1),
+		note("F#5",1),
+		note("F#5",1),
+		note("R",2),
+			//		bar 17 (end of 2nd set)
+		note("R",3),
+		note("R",2),
+		note("D6",1),
+		note("D6",1),
+		note("R",1),
+		note("A5",1),
+		note("A5",1),
+		note("R",2),
+			//		bar 21
+		note("R",3),
+		note("R",2),
+		note("D6",1),
+		note("D6",1),
+		note("R",1),
+		note("B5",1),
+		note("B5",1),
+		note("R",2),
+			//		bar 25 (end of 3rd set)
+		note("R",15),
+			//		bar (fz)
+		note("R",6),
+		note("R",1.5),
+		note("D5",0.5),
+		note("D5",1),
+		note("D5",1),
+		//					NEW PHRASE
+		note("R",3)
+	)
+).
+
+rh4:play(
+	list(
+		// PHRASE 1
+		note("R",1),
+				//		bar 1
+		note("R",12),
+				//		bar 5
+		note("R",12),
+				//		bar 9 (2nd set of bars)
+		note("R",12),
+		note("R",3),
+		note("R",2),
+		note("B5",1),
+		note("B5",1),
+		note("R",2),
+		note("R",3),
+				// 		bar 13
+		note("R",12),
+			//		bar 17 (end of 2nd set)
+		note("R",12),
+			//		bar 21
+		note("R",12),
+			//		bar 25 (end of 3rd set)
+		note("R",15),
+			//		bar (fz)
+		note("R",9)
+		//					NEW PHRASE
+	)
+).
